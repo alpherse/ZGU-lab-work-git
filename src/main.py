@@ -3,5 +3,11 @@ def add(a, b):
     return a + b
 
 
-print("Hello, World!")
+def multiply(a, b):
+    """Возвращает произведение двух чисел"""
+    return a * b
+
+
+print("Privet, Mir!")
 print(add(2, 3))
+print(multiply(2, 3))
